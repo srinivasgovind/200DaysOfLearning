@@ -1,0 +1,31 @@
+# .github/workflows/create_daily_file.yml
+
+name: Create Daily Learning Log
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight UTC daily
+
+jobs:
+  create-daily-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create daily log file
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          FILENAME="day_$(date +%d).md"
+          FOLDER=$(date +%B)
+          mkdir -p $FOLDER
+          cp template.md "$FOLDER/$FILENAME"
+          echo "## Day $(date +%d): $TODAY" >> "$FOLDER/$FILENAME"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Automated creation of daily log file"
+          git push
