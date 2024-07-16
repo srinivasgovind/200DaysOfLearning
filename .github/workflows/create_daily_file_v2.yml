@@ -1,10 +1,9 @@
-# .github/workflows/create_daily_file_v2.yml
-
 name: Create Daily Learning Log
 
 on:
   schedule:
     - cron: '0 0 * * *' # Runs at midnight UTC daily
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   create-daily-file:
@@ -30,5 +29,3 @@ jobs:
           git add .
           git commit -m "Automated creation of daily log file"
           git push
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
