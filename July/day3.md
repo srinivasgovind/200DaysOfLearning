@@ -1,4 +1,4 @@
-# Day 1: July 12th 2024
+# Day 3: July 12th 2024
 
 ## What I Learned
 - **Topic: Design Patterns**
