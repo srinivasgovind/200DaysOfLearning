@@ -1,5 +1,3 @@
-# Template (template.md)
-
 # Day 6: 2024-07-15
 
 ## What I Learned
