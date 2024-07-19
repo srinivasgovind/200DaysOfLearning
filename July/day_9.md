@@ -1,8 +1,8 @@
 # Day 9: 2024-07-18
 
 ## What I Learned
-- **Topic:**
-- **Details:**
+- **Topic:LLD & Exception Handling**
+- **Details: Went through Flyover Design Pattern & Revised Exception Handling **
 
 ## Code Snippets
 ```python
