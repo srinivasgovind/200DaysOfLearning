@@ -1,8 +1,8 @@
 # Day 17: 2024-07-26
 
 ## What I Learned
-- **Topic:**
-- **Details:**
+- **Topic: Typeahead Case Study**
+- **Details: HLD desing of Typeahead**
 
 ## Code Snippets
 ```python
