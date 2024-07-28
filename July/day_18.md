@@ -1,8 +1,8 @@
 # Day 18: 2024-07-27
 
 ## What I Learned
-- **Topic:**
-- **Details:**
+- **Topic: HLD**
+- **Details: No SQL Internals**
 
 ## Code Snippets
 ```python
