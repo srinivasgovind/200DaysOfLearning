@@ -1,8 +1,8 @@
 # Day 21: 2024-07-30
 
 ## What I Learned
-- **Topic:**
-- **Details:**
+- **Topic: LLD **
+- **Details:Design TICTACTOE**
 
 ## Code Snippets
 ```python
