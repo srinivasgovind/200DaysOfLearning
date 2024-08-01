@@ -1,8 +1,8 @@
 # Day 22: 2024-07-31
 
 ## What I Learned
-- **Topic:**
-- **Details:**
+- **Topic: LLD**
+- **Details:TICTACTOE Continued**
 
 ## Code Snippets
 ```python
