@@ -3,6 +3,7 @@
 ## What I Learned
 - **Topic:**
 - **Details:**
+- **Hrs/Day:**
 
 ## Code Snippets
 ```python
