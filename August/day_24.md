@@ -1,9 +1,9 @@
 # Day 24: 2024-08-02
 
 ## What I Learned
-- **Topic:**
-- **Details:**
-- **Hrs/Day:**
+- **Topic: HLD**
+- **Details: Elastic Search Contiunued**
+- **Hrs/Day: 3**
 
 ## Code Snippets
 ```python
