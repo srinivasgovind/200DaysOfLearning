@@ -4,7 +4,3 @@
 - **Topic:**
 - **Details:**
 - **Hrs/Day:**
-
-## Code Snippets
-```python
-# Example code
